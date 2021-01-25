@@ -1,22 +1,50 @@
-html{
+html {
     box-sizing: border-box;
 }
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: inherit;
 }
 
-a{
+a {
     display: inline-block;
     text-decoration: none;
     color: #000;
 }
 
 ul,
-li{
+li {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.suptitle-left {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 22px;
+    line-height: 32px;
+    text-align: right;
+    letter-spacing: 7.33333px;
+    text-transform: uppercase;
+    padding-left: 103px;
+    position: relative;
+    display: inline-block;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.5);
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
