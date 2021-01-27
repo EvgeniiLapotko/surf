@@ -31,4 +31,24 @@ $(function () {
         arrows: false,
         focusOnSelect: true,
     });
+
+    $(".travel__slider").slick({
+        slidesToShow: 1,
+        prevArrow:
+            '<img class="slider-arrows slider-arrows__left" src="images/arrow-left.svg" alt=""></img>',
+        nextArrow:
+            '<img class="slider-arrows slider-arrows__right" src="images/arrow-right.svg" alt=""></img>',
+        infinite: true,
+        fade: true,
+    });
+
+    $(".sleep__slider").slick({
+        slidesToShow: 1,
+        prevArrow:
+            '<img class="slider-arrows slider-arrows__left" src="images/arrow-left.svg" alt=""></img>',
+        nextArrow:
+            '<img class="slider-arrows slider-arrows__right" src="images/arrow-right.svg" alt=""></img>',
+        infinite: true,
+        fade: true,
+    });
 });

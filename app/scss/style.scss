@@ -468,3 +468,90 @@
         }
     }
 }
+
+.travel {
+    padding: 160px 0 260px;
+    background-image: url(../images/cocktail.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    .slider-arrows {
+        top: 220px;
+        opacity: 0.5;
+    }
+}
+
+.travel-slider {
+    &__head {
+        background-repeat: no-repeat;
+        background-position: top left;
+        min-height: 780px;
+    }
+    &__subtitle {
+        text-align: right;
+        padding-right: 80px;
+        padding-top: 132px;
+    }
+    &__descr {
+        margin-top: -250px;
+        padding: 160px 0 132px;
+        padding-left: 132px;
+        min-height: 320px;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+}
+
+.travel-slider__info {
+    display: flex;
+    justify-content: space-around;
+    &-item {
+        min-height: 200px;
+        margin-bottom: 60px;
+        position: relative;
+    }
+    &-suptitle {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: right;
+        letter-spacing: 8px;
+        opacity: 0.5;
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 97px;
+        left: -97px;
+        width: 200px;
+        height: 0;
+        white-space: nowrap;
+    }
+    &-title {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 36px;
+        padding-left: 40px;
+        span {
+            text-align: right;
+            display: block;
+            font-size: 14px;
+            letter-spacing: 5.25px;
+        }
+    }
+}
+
+.travel_slider__btn {
+    text-align: center;
+}
+
+.sleep {
+    padding-top: 60px;
+    padding-bottom: 120px;
+    position: relative;
+    .slider-arrows {
+        top: 220px;
+        opacity: 0.5;
+    }
+    .travel-slider__descr {
+        padding: 260px 0 50px 80px;
+        margin-top: -300px;
+        margin-bottom: 40px;
+    }
+}
