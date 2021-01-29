@@ -83,7 +83,7 @@ $(function () {
     });
 
     $(
-        '<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="../images/plus.svg" alt=""></div><div class="quantity-button quantity-down"><img src="../images/minus.svg" alt=""></div></div>'
+        '<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="gitimages/plus.svg" alt=""></div><div class="quantity-button quantity-down"><img src="images/minus.svg" alt=""></div></div>'
     ).insertAfter(".quantity input");
     $(".quantity").each(function () {
         var spinner = $(this),
